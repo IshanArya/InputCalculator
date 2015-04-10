@@ -34,7 +34,7 @@ public class polynomialEquationRules {
         //Display equation
         for(int i = degree; i >= 0; i--){
             if(i > 0){
-                System.out.print(coefficients[i] + " + ");
+                System.out.print(coefficients[i] + "x^" + i + " + ");
             }
             else{
                 System.out.print(coefficients[i]);

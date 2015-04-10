@@ -16,17 +16,21 @@ public class polynomialEquation {
         if(sc.nextInt() == 1){
             System.out.print("Input an X value: ");
             test.plugInX(sc.nextDouble());
-            //test.display();
+            test.display();
             System.out.println(test.answer());
         }
         else if(sc.nextInt() == 2){
-            for(int i = 10; i >= -10; i--){
-                test.plugInX(i);
+            //for(int i = 10; i >= 10; i--){
+                test.plugInX(10);
                 System.out.println(test.answer());
-            }
+            //}
         }
 
+        /*
+        Debug:
+
         test.display();
-        //System.out.println(test.answer());
+        System.out.println(test.answer());
+        */
     }
 }
