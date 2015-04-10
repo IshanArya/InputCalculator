@@ -4,7 +4,7 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="415DAB266C9609DD5A241CC2D2CC6008" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="JDK 1.8.0_31" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
