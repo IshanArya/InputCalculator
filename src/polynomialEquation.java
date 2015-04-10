@@ -17,7 +17,7 @@ public class polynomialEquation {
             System.out.print("Input an X value: ");
             test.plugInX(sc.nextDouble());
             //test.display();
-            System.out.print(test.answer());
+            System.out.println(test.answer());
         }
         else if(sc.nextInt() == 2){
             for(int i = 10; i >= -10; i--){
@@ -27,6 +27,6 @@ public class polynomialEquation {
         }
 
         test.display();
-        System.out.print(test.answer());
+        //System.out.println(test.answer());
     }
 }

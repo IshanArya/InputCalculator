@@ -8,13 +8,14 @@ public class polynomialEquationRules {
     int degree;
     double answer;
     double x;
-    double[] coefficients = new double[degree + 1];
+    double[] coefficients;
     public polynomialEquationRules(){
         //Default Constructor
     }
 
     public polynomialEquationRules(int exponent){
         degree = exponent;
+        coefficients = new double[degree + 1];
     }
 
     public void coefficient(){
@@ -31,7 +32,7 @@ public class polynomialEquationRules {
 
     public void display(){
         //Display equation
-        for(int i = degree; i >= 0; ){
+        for(int i = degree; i >= 0; i--){
             if(i > 0){
                 System.out.print(coefficients[i] + " + ");
             }
@@ -39,6 +40,7 @@ public class polynomialEquationRules {
                 System.out.print(coefficients[i]);
             }
         }
+        System.out.println();
 
     }
 
